@@ -1,1 +1,2 @@
 addtask build
+addtask clean

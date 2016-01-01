@@ -10,3 +10,11 @@ python do_build() {
     bb.plain("********************");
 }
 
+python do_clean() {
+    bb.plain("********************");
+    bb.plain("*                  *");
+    bb.plain("*  Clean  World!   *");
+    bb.plain("*                  *");
+    bb.plain("********************");
+}
+

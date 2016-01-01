@@ -1,2 +1,2 @@
 #!/bin/bash
-bitbake helloworld
+bitbake helloworld $@
