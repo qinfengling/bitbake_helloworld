@@ -1,2 +1,3 @@
 #!/bin/bash
-bitbake helloworld $@
+bitbake -f helloworld $@
+bitbake -f -c compile -b service
